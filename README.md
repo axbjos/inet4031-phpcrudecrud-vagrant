@@ -4,10 +4,12 @@
 
 This Vagrantfile will create a single server running the following (LAMP Stack):
 
-- Ubuntu 22.04 Linux
+- Ubuntu 24.04 Linux
 - MariaDB distribution of MySQL
 - Apache 2 Webserver
 - PHP Programming Language and Modules
+
+The Vagrant Box used to clone the VM is Bento's Ubuntu 24.04 that can be used on either x86 or ARM64 systems.
 
 A sample 300,000 record "Employee" database will be uploaded to the DB.  
 
