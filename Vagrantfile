@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   
   # UNCOMMENT THE BOX LINE APPROPRIATE FOR YOUR SYSTEM!!!
   #config.vm.box = "ubuntu/jammy64"
-  config.vm.box = "bento/ubuntu-22.04-arm64"
+  config.vm.box = "bento/ubuntu-24.04"
 
   # For host only make sure you know what you are doing
   # This line is ONLY for Virtualbox Users.
