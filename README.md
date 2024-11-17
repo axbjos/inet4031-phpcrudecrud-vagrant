@@ -11,7 +11,7 @@ This Vagrantfile will create a single server running the following (LAMP Stack):
 
 The Vagrant Box used to clone the VM is Bento's Ubuntu 24.04 that can be used on either x86 or ARM64 systems.
 
-A sample 300,000 record "Employee" database will be uploaded to the DB.  
+A sample 300,000 record "Employee" database will be uploaded to the DB (cloned from the datacharmer repo)
 
 A sample PHP application that implements all CRUD operations in very Crude fashion: aka the PHP Crude CRUD App.
 
@@ -28,18 +28,16 @@ The end result should be a running server with everything working.  Simply navig
 - Vagrant http://vagrantup.com
 - Virtualbox http://virtualbox.org
 
-### M1/M2 aka Apple Silicon Macs:
+### M1/M2/M3/M4 aka Apple Silicon Macs:
 
 - VMware Fusion for Apple Silicon
 - Vagrant
 - Vagrant VMware Utility
 - Vagrant VMware Provider
 
-Consult the Vagrant Documentation
+As of November 2024 Vagrant does not work with the Apple Silicon Version of VirtualBox (I can't get it to work anyway). The "bent" 24.04 cross-platform box, Vagrant, and VMware Fusion do seem to work.
 
-As of Oct 18, 2022, an unlimited free version of VMware Fusion for Apple Silicon is available.
-
-Also as of Oct 18, 2022, there are all sorts of "gotchas" running Vagrant and VMware Fusion for Apple Silicon together.
+Consult the Vagrant Documentation if Necessary
 
 ---
 
@@ -51,7 +49,7 @@ Then just run all the shell commands shown in the Vagrant file on your VM
 
 ## Docker
 
-Look at my phpcrudecruddocker repo for an example of how to containerize the app.
+Look at my ------ repo for an example of how to containerize the app.
 
 A ready to go app is also available on Dockhub.  Will add the pull link soon.
 
